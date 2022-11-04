@@ -3,7 +3,7 @@
 try
 {
 
-Console.Write("Укажите размер массива (введите целое число): ");
+Console.Write("Укажите размер массива (введите натуральное число): ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[size];
 
@@ -46,6 +46,6 @@ Console.WriteLine($"Количество четных чисел в данном
 catch
 {
 
-    Console.WriteLine("Ошибка! Введите целое число.");
+    Console.WriteLine("Ошибка! Введите натуральное число.");
 
 }
