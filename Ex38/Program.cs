@@ -14,7 +14,8 @@ void FillArray(double[] arr)
     int index = 0;
     while (index < length)
     {
-        arr[index] = Convert.ToDouble (new Random().Next(-1000,1001)) / 10;
+        Console.Write($"Введите число {index + 1} для заполнения массива из {size} элементов: ");
+        arr[index] = Convert.ToDouble(Console.ReadLine());
         index++;
     }
 }
