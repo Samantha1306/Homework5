@@ -33,7 +33,7 @@ FillArray(array);
 PrintArray(array);
 
 int sum = 0;
- for (int i = 0; i < size; i = i + 2)
+ for (int i = 1; i < size; i = i + 2)
  {
     sum = sum + array[i];
 
