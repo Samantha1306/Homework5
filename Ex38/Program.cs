@@ -7,7 +7,19 @@ try
 Console.Write("Укажите размер массива (введите натуральное число): ");
 int size = Convert.ToInt32(Console.ReadLine());
 double[] array = new double[size];
+//Массив рандомных чисел
+// void FillArray(double[] arr)
+// {
+//     int length = array.Length;
+//     int index = 0;
+//     while (index < length)
+//     {
+//         arr[index] = Convert.ToDouble (new Random().Next(-1000,1001)) / 10;
+//         index++;
+//     }
+// }
 
+//Массив для ввода чисел к клавиатуры
 void FillArray(double[] arr)
 {
     int length = array.Length;
